@@ -20,8 +20,8 @@ vim.keymap.set("n", "<C-a>", "ggVG<cr>", { desc = "Select all" })
 vim.keymap.set("n", "<esc>", "<cmd>noh<cr>")
 
 -- Better indenting
--- vim.keymap.set("v", "<", "<gv")
--- vim.keymap.set("v", ">", ">gv")
+vim.keymap.set("v", "<", "<gv")
+vim.keymap.set("v", ">", ">gv")
 
 -- Paste without replace clipboard
 vim.keymap.set("v", "p", '"_dP')
@@ -43,8 +43,8 @@ vim.keymap.set("i", "<C-M-k>", "<Esc>:m .-2<cr>==gi", { desc = "Move up" })
 -- vim.keymap.set("n", "<C-u>", "<C-u>zz")
 
 -- Better move
--- vim.keymap.set("n", "<C-j>", "<C-e>")
--- vim.keymap.set("n", "<C-k>", "<C-y>")
+vim.keymap.set("n", "<C-j>", "<C-e>")
+vim.keymap.set("n", "<C-k>", "<C-y>")
 
 
 -- Clear search results
