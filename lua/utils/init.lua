@@ -47,24 +47,18 @@ M.lsp_kinds = {
 
 M.mason_packages = {
     "bash-language-server",
-    "black",
-    "clang-format",
-    "clangd",
-    "codelldb",
-    "cspell",
+    -- "black",
+    'flake8',
     "css-lsp",
-    "eslint-lsp",
-    "graphql-language-service-cli",
     "html-lsp",
     "json-lsp",
     "lua-language-server",
     "markdownlint",
     "prettier",
     "pyright",
+    -- "jedi-language-server",
     "shfmt",
     "tailwindcss-language-server",
-    "taplo",
-    "typescript-language-server",
     "yaml-language-server",
     "gopls",
     "editorconfig-checker"
@@ -72,18 +66,12 @@ M.mason_packages = {
 
 M.lsp_servers = {
     "clangd",
-    "tsserver",
     "pyright",
     "lua_ls",
-    "eslint",
     "bashls",
-    "yamlls",
     "jsonls",
     "cssls",
-    "taplo",
     "html",
-    "graphql",
-    "tailwindcss",
     "gopls",
 }
 
